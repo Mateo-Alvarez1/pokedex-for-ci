@@ -8,9 +8,9 @@ on:
 jobs: 
   hello_world:
     runs-on: ubuntu-latest
-    steps:  
+    steps: 
       - name: Echo the message
-        run: | 
+        run: |
           echo "Hola Midu"
       - name: Dime la fecha
         run: date
